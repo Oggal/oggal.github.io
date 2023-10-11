@@ -49,6 +49,7 @@ header {
         background-color: var(--root_color);
         margin: 0%;
         padding-top: 0%;
+        padding-bottom: 0%;
         border:0%;
         width: 100%;
         height: 100%;
@@ -112,10 +113,7 @@ html
 }
 body 
 {
-        flex: auto      ;
-        margin: auto;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
         padding: 0%;
         color: var(--text_color);
         background-position: center;
@@ -124,5 +122,35 @@ body
         background-image: linear-gradient(to bottom, var(--pannel_colorhigh), var(--pannel_colorlow));
         font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 14px;
+}
+
+.menuButtons {
+        min-height: 40px;
+        border-style: double;
+        background-color: var(--pannel_colorlow);
+        border-width: 0px;
+        border-top-width: 5px;
+        border-bottom-width: 5px;
+        margin: 0;
+        padding: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: linear-gradient( to left, var(--pannel_colorlow), var(--pannel_colorhigh));
+        justify-self: flex-start;
+        display: flex;
+
+}
+
+.menuButtons .selection 
+{
+        border-style: groove;
+        border-width: 0px 3px 0px 3px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        
 }
 
