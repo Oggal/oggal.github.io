@@ -1,0 +1,35 @@
+.portfolio {
+        background-color: rgba(0, 0, 0, 0.25);
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--text_colorhigh);
+}
+
+.portfolio article {
+        background-color: rgba(126, 126, 126, 0.5);
+        width: 100%;
+        margin-bottom: 50px;
+}
+
+.portfolio article h2 {
+        text-align: center;
+}
+.portfolio article img {
+        display: block;
+        margin: 0 auto;
+}
+
+.portfolio article .itchio-embed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+}
+
+.portfolio article p {
+        text-align: center;
+}

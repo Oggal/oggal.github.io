@@ -3,21 +3,74 @@
 <html>
         <head>
                 <title>Philip Taylor</title>
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="./scripts/contentController.js"></script>
                 <link rel="stylesheet" href="./css/style.css">
+                <link rel="stylesheet" href="./css/portfolio.css">
+                <link rel="stylesheet" href="./css/about.css">
         </head>
         <body>
                 <header>
+                        <div class="name">
+                                <img src="https://www.github.com/Oggal.png"></img>
+                                Philip Taylor
+                        </div>
                         <div class="socialButtons">
                                 <a href="https://www.linkedin.com/in/philiptaylor-oggal/" class="linkedIn"></a>
                                 <a href="https://www.github.com/Oggal" class="github"></a>
                                 <a href ="https://oggal.itch.io/" class="itch"></a>
                         </div>
                 </header>
+
                 <div class="menuButtons">
-                        <div class="selection">About Me</div>
-                        <div class="selection">Portfolio</div>
-                        <div class="selection">Contact</div>
-                        
-                </dix>
+                        <div class="selection" id="0"><p>About Me</p></div>
+                        <div class="selection" id="1"><p>Portfolio</p></div>
+                        <div class="selection" id="2"><p>Contact</p></div>   
+                </div>
+                <div class="content">                
+                        <section class="about" id="0">
+                                <div>
+                                        <img src="https://github.com/Oggal.png" alt="Me">
+                                </div>
+                                <div class="about-container">
+                                        <h2>Philip Taylor</h2>
+                                        <h3>Software Tools Engineer</h3>
+                                        <p>I am a software tools engineer with experience in developing and maintaining software tools for Unity. I have confidence in programming languages such as C, Python, and Java, and I am proficient in using various software development tools such as Git and Visual Studio. I am passionate about developing efficient and user-friendly software tools that can help  individuals and teams achieve their goals.</p>
+                                </div>
+                        </section>
+                        <section class="portfolio" id="1">
+                                <article>
+                                        <h2>Cloud Climber</h2>
+                                        <div class ="itchio-embed">
+                                                <iframe frameborder="0" src="https://itch.io/embed/2034475" width="552" height="167"><a href="https://teylorchapman.itch.io/cloud-climber">Cloud Climber by teylorchapman</a></iframe>
+                                        </div>
+                                        <p>HackSprint Project for Holberton Tulsa, Cohort 19. A 2D platformer targeting WebGL, built using Unity. Working in a team of three.</p>
+                                </article>
+                                <article>
+                                        <h2>Re:Wound</h2>
+                                        <div class="itchio-embed">
+                                                <iframe frameborder="0" src="https://itch.io/embed/724581" width="552" height="167"><a href="https://oggal.itch.io/rewound">RE:Wound by Oggal</a></iframe>
+                                        </div>
+                                        <p>Gamejam Game - 2020. First Person Puzzle Game built in Unity over eight days. Solo Project. Originally targeting windows, later ported to WebGL.</p>
+                                </article>
+                                <article>
+                                        <h2>Tarot Torment</h2>
+                                        <div class="itchio-embed">
+                                                <iframe frameborder="0" src="https://itch.io/embed/1679828" width="552" height="167"><a href="https://oggal.itch.io/tarot-torment">Tarot Torment by Oggal</a></iframe>
+                                        </div>
+                                        <p>Gamejam Game - 2022. Digital Card Game build in Unity for WebGL. Solo Project.</p>
+                                </article>
+                        </section>
+                        <section class="contact" id="2">
+                                <div>
+                                        <img src="https://www.linkedin.com/favicon.ico" alt="Me">
+                                </div>
+                                <div>
+                                        <a href="https://www.linkedIn.com/in/philiptaylor-oggal">Reach Out On LinkedIn!</a>
+                                        <h2>Let's connect and build the future!</h2>
+                                        
+                                </div>
+                        </section>
+                </div>
         </body>
 </html>
