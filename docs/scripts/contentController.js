@@ -6,7 +6,7 @@ $(document).ready(function() {
         // Add all sections to the list
         $("section").each(function(item) {
                 sections.push($(this));
-                $(this).css("opacity", "0");
+                $(this).css("display", "none");
                 console.log(sections);
         });
         // Mouseover function
